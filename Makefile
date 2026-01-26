@@ -1,7 +1,7 @@
 run-jekyll:
 	bundle exec jekyll serve
 
- build-gh-pages:
+ build-gh-pages: install-jekyll
 	bundle exec jekyll build -d _site
 sync-main:
 	git checkout main .tool-versions
