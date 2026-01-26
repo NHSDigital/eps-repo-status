@@ -5,6 +5,7 @@ run-jekyll:
 	bundle exec jekyll build -d _site
 sync-main:
 	git checkout main .tool-versions
+	git checkout main .tool-versions.asdf
 	git checkout main .pre-commit-config.yaml
 	git checkout main .gitignore
 	git checkout main .devcontainer
