@@ -1,0 +1,29 @@
+---
+layout: page
+---
+<h1>Release Status <span class="repo-status-updated">(Updated {{ site.data.repo_status.generated_date_time }})</span></h1>
+<div class="repo-status-table-wrapper">
+<table class="repo-status-table">
+  <tr>
+    <th>Repo</th>
+    <th>Latest release tag</th>
+    <th>Latest dev tag</th>
+    <th>Latest qa tag</th>
+    <th>Latest ref tag</th>
+    <th>Latest int tag</th>
+    <th>Latest prod tag</th>
+  </tr>
+    {% assign weekly_repos = site.data.repo_status.repos | where: "in_weekly_release", true %}
+    {% for repo in weekly_repos %}
+  <tr>
+    <td><a href=https://github.com/{{repo.repo_url}}>{{ repo.friendly_name }}</a></td>
+    <td><a href="{{ repo.latest_release_url }}">{{ repo.latest_release_tag }} - {{repo.latest_release_published_at}}</a></td>
+    <td><a href="{%- include latest_env_tag_url.html repo=repo tag=repo.latest_dev_tag -%}">{{ repo.latest_dev_tag }} - {{repo.latest_dev_release_datetime}}</a></td>
+    <td><a href="{%- include latest_env_tag_url.html repo=repo tag=repo.latest_qa_tag -%}">{{ repo.latest_qa_tag }} - {{repo.latest_qa_release_datetime}}</a></td>
+    <td><a href="{%- include latest_env_tag_url.html repo=repo tag=repo.latest_ref_tag -%}">{{ repo.latest_ref_tag }} - {{repo.latest_ref_release_datetime}}</a></td>
+    <td><a href="{%- include latest_env_tag_url.html repo=repo tag=repo.latest_int_tag -%}">{{ repo.latest_int_tag }} - {{repo.latest_int_release_datetime}}</a></td>
+    <td><a href="{%- include latest_env_tag_url.html repo=repo tag=repo.latest_prod_tag -%}">{{ repo.latest_prod_tag }} - {{repo.latest_prod_release_datetime}}</a></td>
+  </tr>
+  {% endfor %}
+</table>
+</div>

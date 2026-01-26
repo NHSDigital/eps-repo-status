@@ -1,0 +1,7 @@
+{%- assign tag = include.tag -%}
+{%- assign repo_obj = include.repo -%}
+{%- if tag contains '.' -%}
+https://github.com/{{ repo_obj.repo_url }}/releases/tag/{{ tag }}
+{%- else -%}
+https://github.com/{{ repo_obj.repo_url }}/commit/{{ tag }}
+{%- endif -%}
