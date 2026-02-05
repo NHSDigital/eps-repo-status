@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-02-05T12:33:46",
+  "generated_date_time": "2026-02-05T13:19:35",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -20,25 +20,39 @@
       "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21681244198",
       "latest_commit_check_runs": [
         {
+          "name": "release_ref / deploy to ref",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62616212914",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62616212914",
+          "status": "waiting",
+          "conclusion": null
+        },
+        {
+          "name": "release_qa / deploy to qa",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62616212900",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62616212900",
+          "status": "waiting",
+          "conclusion": null
+        },
+        {
           "name": "release_dev / Prescribing Regression Tests / run_regression_tests",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615835308",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615835308",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_dev / Dispensing Regression Tests / run_regression_tests",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615835135",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615835135",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_dev / Pact Tests / run_pact_tests",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615833591",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/21710664281/job/62615833591",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_dev / Prescribing Regression Tests / get_asdf_version",
@@ -229,7 +243,10 @@
       "tool_version_nodejs": "24.13.0",
       "tool_version_python": "3.13.11",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 3
     },
     {
       "repo_url": "NHSDigital/prescriptionsforpatients",
@@ -391,7 +408,10 @@
       "tool_version_nodejs": "24.13.0",
       "tool_version_python": "3.12.12",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 1
     },
     {
       "repo_url": "NHSDigital/prescriptions-for-patients",
@@ -488,7 +508,10 @@
       "tool_version_nodejs": "16.14.2",
       "tool_version_python": "3.8.15",
       "tool_version_poetry": "2.1.1",
-      "asdf_version": null
+      "asdf_version": [
+        null
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-account-resources",
@@ -1539,7 +1562,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.12.12",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-prescription-status-update-api",
@@ -1883,7 +1909,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.12.12",
       "tool_version_poetry": "1.8.2",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-clinical-prescription-tracker",
@@ -2157,7 +2186,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-prescription-tracker-ui",
@@ -2177,6 +2209,13 @@
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21677852283",
       "latest_commit_check_runs": [
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21711661579/job/62616589167",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21711661579/job/62616589167",
+          "status": "completed",
+          "conclusion": "success"
+        },
         {
           "name": "delete-old-cloudformation-stacks",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21709847770/job/62610331474",
@@ -2312,7 +2351,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 1
     },
     {
       "repo_url": "NHSDigital/eps-FHIR-validator-lambda",
@@ -2586,7 +2628,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.12.12",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/validation-service-fhir-r4",
@@ -2690,7 +2735,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-release-notes",
@@ -2766,7 +2814,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.12.12",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 19
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-get-secrets",
@@ -2877,7 +2928,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/nhs-fhir-middy-error-handler",
@@ -3023,7 +3077,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/nhs-eps-spine-client",
@@ -3169,7 +3226,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-load-test",
@@ -3209,7 +3269,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": -1
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api-regression-tests",
@@ -3226,15 +3289,71 @@
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
-      "release_workflow_status": "in_progress",
+      "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21711450311",
       "latest_commit_check_runs": [
+        {
+          "name": "upload_results",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62619018698",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62619018698",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "run_regression_tests (multiple_access_pre_selected)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461738",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461738",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "run_regression_tests (multiple_roles_no_access)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461685",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461685",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "run_regression_tests (multiple_roles_single_access)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461648",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461648",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "run_regression_tests (others)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461639",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461639",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "run_regression_tests (multiple_access)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461635",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461635",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "run_regression_tests (single_access)",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461618",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618461618",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "regression_tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618452685",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21712199933/job/62618452685",
+          "status": "completed",
+          "conclusion": "success"
+        },
         {
           "name": "tag_release / tag_release",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21711450311/job/62616239281",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/21711450311/job/62616239281",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "tag_release / install_semantic_release",
@@ -3300,12 +3419,12 @@
           "conclusion": "success"
         }
       ],
-      "latest_commit_combined_check_runs_status": "success",
+      "latest_commit_combined_check_runs_status": "failure",
       "in_weekly_release": false,
-      "latest_release_tag": "v3.8.29",
-      "latest_release_name": "v3.8.29",
-      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/releases/tag/v3.8.29",
-      "latest_release_published_at": "2026-02-02T15:24:36",
+      "latest_release_tag": "v3.8.30",
+      "latest_release_name": "v3.8.30",
+      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/releases/tag/v3.8.30",
+      "latest_release_published_at": "2026-02-05T12:31:47",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -3320,7 +3439,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.13.1",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-aws-dashboards",
@@ -3454,7 +3576,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 4
     },
     {
       "repo_url": "NHSDigital/eps-storage-terraform",
@@ -3494,7 +3619,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.13.5",
       "tool_version_poetry": "2.1.3",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 4
     },
     {
       "repo_url": "NHSDigital/eps-cdk-utils",
@@ -3822,7 +3950,10 @@
       "tool_version_nodejs": "24.13.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-assist-me",
@@ -3949,7 +4080,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 1
     },
     {
       "repo_url": "NHSDigital/eps-vpc-resources",
@@ -4092,7 +4226,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 5
     },
     {
       "repo_url": "NHSDigital/eps-common-workflows",
@@ -4189,7 +4326,10 @@
       "tool_version_nodejs": "24.12.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.2.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     },
     {
       "repo_url": "NHSDigital/eps-spine-shared",
@@ -4265,7 +4405,10 @@
       "tool_version_nodejs": null,
       "tool_version_python": "3.10.12",
       "tool_version_poetry": "2.1.3",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 14
     },
     {
       "repo_url": "NHSDigital/eps-repo-status",
@@ -4283,14 +4426,14 @@
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
       "release_workflow_status": "success",
-      "release_workflow_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/21711425297",
+      "release_workflow_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/21712782142",
       "latest_commit_check_runs": [],
       "latest_commit_combined_check_runs_status": "unknown",
       "in_weekly_release": false,
-      "latest_release_tag": "v1.0.17",
-      "latest_release_name": "v1.0.17",
-      "latest_release_url": "https://github.com/NHSDigital/eps-repo-status/releases/tag/v1.0.17",
-      "latest_release_published_at": "2026-02-05T12:29:12",
+      "latest_release_tag": "v1.0.18",
+      "latest_release_name": "v1.0.18",
+      "latest_release_url": "https://github.com/NHSDigital/eps-repo-status/releases/tag/v1.0.18",
+      "latest_release_published_at": "2026-02-05T13:14:07",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -4305,7 +4448,10 @@
       "tool_version_nodejs": "24.13.0",
       "tool_version_python": "3.14.2",
       "tool_version_poetry": "2.3.1",
-      "asdf_version": "0.18.0"
+      "asdf_version": [
+        "0.18.0"
+      ],
+      "commits_since_latest_release": 0
     }
   ]
 }
