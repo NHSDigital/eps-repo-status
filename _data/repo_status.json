@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-02-06T12:21:26",
+  "generated_date_time": "2026-02-06T12:54:33",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -295,6 +295,13 @@
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/prescriptionsforpatients/actions/runs/21677763226",
       "latest_commit_check_runs": [
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/prescriptionsforpatients/actions/runs/21750334132/job/62746392134",
+          "status_url": "https://github.com/NHSDigital/prescriptionsforpatients/actions/runs/21750334132/job/62746392134",
+          "status": "completed",
+          "conclusion": "success"
+        },
         {
           "name": "release_qa / sam_release_code",
           "html_url": "https://github.com/NHSDigital/prescriptionsforpatients/actions/runs/21746435937/job/62735889444",
@@ -1678,11 +1685,25 @@
       "high_code_scanning_alerts": 0,
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
-      "ci_workflow_status": "in_progress",
+      "ci_workflow_status": "waiting",
       "ci_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194",
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21714109108",
       "latest_commit_check_runs": [
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21750738705/job/62747770240",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21750738705/job/62747770240",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_qa / release_all_code",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194/job/62746282805",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194/job/62746282805",
+          "status": "waiting",
+          "conclusion": null
+        },
         {
           "name": "release_dev / update_github_pages",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194/job/62744678986",
@@ -1694,8 +1715,8 @@
           "name": "release_dev / Regression Tests / run_regression_tests",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194/job/62744678980",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21748953194/job/62744678980",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_dev / release_all_code",
@@ -4280,15 +4301,15 @@
       "low_code_scanning_alerts": -1,
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
-      "release_workflow_status": "success",
-      "release_workflow_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/21747217677",
+      "release_workflow_status": "in_progress",
+      "release_workflow_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/21751253395",
       "latest_commit_check_runs": [],
       "latest_commit_combined_check_runs_status": "unknown",
       "in_weekly_release": false,
-      "latest_release_tag": "v1.0.20",
-      "latest_release_name": "v1.0.20",
-      "latest_release_url": "https://github.com/NHSDigital/eps-repo-status/releases/tag/v1.0.20",
-      "latest_release_published_at": "2026-02-06T10:29:41",
+      "latest_release_tag": "v1.0.23",
+      "latest_release_name": "v1.0.23",
+      "latest_release_url": "https://github.com/NHSDigital/eps-repo-status/releases/tag/v1.0.23",
+      "latest_release_published_at": "2026-02-06T12:36:55",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -4306,7 +4327,7 @@
       "asdf_version": [
         "0.18.0"
       ],
-      "commits_since_last_release": 0,
+      "commits_since_last_release": 1,
       "main_branch": "main"
     },
     {
