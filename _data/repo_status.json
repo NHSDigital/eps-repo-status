@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-02-13T08:23:31",
+  "generated_date_time": "2026-02-13T09:26:48",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -2091,7 +2091,7 @@
       "latest_prod_tag": "v1.8.4-beta",
       "latest_prod_release_datetime": "2026-02-11T10:48:31",
       "latest_dev_tag": "PR-1709",
-      "latest_dev_release_datetime": "2026-02-12T18:31:06",
+      "latest_dev_release_datetime": "2026-02-13T09:21:31",
       "latest_qa_tag": "v1.8.5-beta",
       "latest_qa_release_datetime": "2026-02-11T09:47:30",
       "latest_ref_tag": "v1.8.5-beta",
@@ -2128,6 +2128,13 @@
       "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21714109108",
       "latest_commit_check_runs": [
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21980117893/job/63500420181",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21980117893/job/63500420181",
+          "status": "completed",
+          "conclusion": "success"
+        },
         {
           "name": "delete-old-cloudformation-stacks",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/21978702667/job/63495934251",
@@ -3059,48 +3066,62 @@
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "success",
       "ci_workflow_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21761106775",
-      "release_workflow_status": "failure",
+      "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258",
       "latest_commit_check_runs": [
         {
-          "name": "tag_release",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217740917",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217740917",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217644363",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217644363",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629420",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629420",
-          "status": "completed",
-          "conclusion": "failure"
-        },
-        {
-          "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629419",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629419",
+          "name": "tag_release / tag_release",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63503447148",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63503447148",
           "status": "completed",
           "conclusion": "success"
         },
         {
+          "name": "tag_release / install_semantic_release",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63503044897",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63503044897",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "SonarCloud Code Analysis",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/63503026690",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/63503026690",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / docker_vulnerability_scan",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803592",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803592",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
           "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629417",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217629417",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803389",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803389",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / IaC-validation",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803355",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803355",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / quality_checks",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803179",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803179",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_asdf_version",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217617404",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63217617404",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803071",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21897701258/job/63502803071",
           "status": "completed",
           "conclusion": "success"
         },
@@ -3115,13 +3136,6 @@
           "name": "tag_release / install_semantic_release",
           "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21761106775/job/62784901612",
           "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/21761106775/job/62784901612",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/62784893237",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/62784893237",
           "status": "completed",
           "conclusion": "success"
         },
@@ -3161,12 +3175,12 @@
           "conclusion": "success"
         }
       ],
-      "latest_commit_combined_check_runs_status": "failure",
+      "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v2.1.72",
-      "latest_release_name": "v2.1.72",
-      "latest_release_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/releases/tag/v2.1.72",
-      "latest_release_published_at": "2026-02-04T08:24:10",
+      "latest_release_tag": "v2.1.73",
+      "latest_release_name": "v2.1.73",
+      "latest_release_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/releases/tag/v2.1.73",
+      "latest_release_published_at": "2026-02-13T09:07:43",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -3184,7 +3198,7 @@
       "asdf_version": [
         "0.18.0"
       ],
-      "commits_since_last_release": 4,
+      "commits_since_last_release": 0,
       "main_branch": "main"
     },
     {
