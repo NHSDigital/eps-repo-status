@@ -1,12 +1,15 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-    "name": "Ubuntu",
-    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "name": "eps-repo-status",
     "build": {
         "dockerfile": "Dockerfile",
         "context": "..",
-        "args": {}
+        "args": {
+            "DOCKER_GID": "${env:DOCKER_GID:}",
+            "IMAGE_NAME": "node_24_python_3_14",
+            "IMAGE_VERSION": "v1.0.7",
+            "USER_UID": "${localEnv:USER_ID:}",
+            "USER_GID": "${localEnv:GROUP_ID:}"
+        }
     },
     "mounts": [
         "source=${env:HOME}${env:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind",
@@ -14,14 +17,8 @@
         "source=${env:HOME}${env:USERPROFILE}/.gnupg,target=/home/vscode/.gnupg,type=bind",
         "source=${env:HOME}${env:USERPROFILE}/.npmrc,target=/home/vscode/.npmrc,type=bind"
     ],
-    "features": {
-        "ghcr.io/devcontainers/features/github-cli:1": {},
-        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-            "version": "latest",
-            "moby": "true",
-            "installDockerBuildx": "true"
-        }
-    },
+    "postAttachCommand": "git-secrets --register-aws; git-secrets --add-provider -- cat /usr/share/secrets-scanner/nhsd-rules-deny.txt",
+    "features": {},
     "customizations": {
         "vscode": {
             "extensions": [
@@ -52,10 +49,10 @@
                 "python.testing.pytestEnabled": true,
                 "pylint.enabled": false,
                 "python.linting.flake8Enabled": true,
-                "python.linting.enabled": true, // required to format on save
-                "editor.formatOnPaste": false, // required
-                "editor.formatOnType": false, // required
-                "editor.formatOnSave": true, // optional
+                "python.linting.enabled": true,
+                "editor.formatOnPaste": false,
+                "editor.formatOnType": false,
+                "editor.formatOnSave": true,
                 "editor.formatOnSaveMode": "file",
                 "cSpell.words": [
                     "fhir",
@@ -75,15 +72,5 @@
     },
     "remoteEnv": {
         "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
-    },
-    "postCreateCommand": "rm -f ~/.docker/config.json; git config --global --add safe.directory /workspaces/eps-repo-status; make install; direnv allow ."
-    // "features": {},
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    // "forwardPorts": [],
-    // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": ""
-    // Configure tool-specific properties.
-    // "customizations": {},
-    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-    // "remoteUser": "root"
+    }
 }
