@@ -54,6 +54,7 @@ def main(argv: List[str] | None = None) -> None:
         unreleased_tags = client.get_unreleased_tags(repo, latest_prod_tag)
         tool_versions = client.get_tool_versions(repo)
         asdf_version = (client.get_asdf_version(repo),)
+        devcontainer_details = client.get_devcontainer_details(repo)
         commits_since_last_release = client.get_commits_since_last_release(repo)
 
         results.append(
@@ -96,6 +97,8 @@ def main(argv: List[str] | None = None) -> None:
                 "tool_version_python": tool_versions.get("python"),
                 "tool_version_poetry": tool_versions.get("poetry"),
                 "asdf_version": asdf_version,
+                "devcontainer_image_name": devcontainer_details.get("IMAGE_NAME"),
+                "devcontainer_image_version": devcontainer_details.get("IMAGE_VERSION"),
                 "commits_since_last_release": commits_since_last_release,
                 "main_branch": repo["mainBranch"],
             }
