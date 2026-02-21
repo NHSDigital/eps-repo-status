@@ -1,3 +1,4 @@
+.PHONY: install lint build test clean
 install: install-python install-hooks
 
 install-python:
@@ -13,7 +14,7 @@ deep-clean: clean
 test:
 	cd packages/get_repo_status && COVERAGE_FILE=coverage/.coverage poetry run python -m pytest
 
-lint: lint-black lint-flake8 lint-github-actions
+lint: lint-black lint-flake8
 
 lint-black:
 	poetry run black .
@@ -21,11 +22,10 @@ lint-black:
 lint-flake8:
 	poetry run flake8 .
 
-lint-github-actions:
-	actionlint
 
 run-get-repo-status:
 	GITHUB_TOKEN=`gh auth token` poetry run python scripts/run_repo_status.py --output /tmp/repo_status_export.json
 
-github-login:
-	gh auth login
+
+%:
+	@$(MAKE) -f /usr/local/share/eps/Mk/common.mk $@
