@@ -9,6 +9,17 @@ body {
     color: #383838;
 }
 
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 0 1rem;
+}
+
 .repo-status-table-wrapper {
     width: 100vw;
     margin-left: calc(50% - 50vw);
