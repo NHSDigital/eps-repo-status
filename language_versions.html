@@ -7,7 +7,9 @@ layout: page
   <thead>
     <tr>
       <th scope="col" data-sort-type="string">Repo</th>
-      <th scope="col" data-sort-type="numeric">Nodejs version</th>
+      <th scope="col" data-sort-type="string">devcontainer image</th>
+      <th scope="col" data-sort-type="string">devcontainer version</th>
+      <th scope="col" data-sort-type="numeric">Node version</th>
       <th scope="col" data-sort-type="numeric">Python version</th>
       <th scope="col" data-sort-type="numeric">Poetry version</th>
       <th scope="col" data-sort-type="numeric">asdf version</th>
@@ -17,6 +19,8 @@ layout: page
     {% for repo in site.data.repo_status.repos %}
   <tr>
     <td><a href=https://github.com/{{repo.repo_url}}>{{ repo.friendly_name }}</a></td>
+    <td><a href=https://github.com/{{repo.repo_url}}/.devcontainer/devcontainer.json>{{ repo.devcontainer_image_name }}</a></td>
+    <td><a href=https://github.com/{{repo.repo_url}}/.devcontainer/devcontainer.json>{{ repo.devcontainer_image_version }}</a></td>
     <td><a href=https://github.com/{{repo.repo_url}}/.tool-versions>{{ repo.tool_version_nodejs }}</a></td>
     <td><a href=https://github.com/{{repo.repo_url}}/.tool-versions>{{ repo.tool_version_python }}</a></td>
     <td><a href=https://github.com/{{repo.repo_url}}/.tool-versions>{{ repo.tool_version_poetry }}</a></td>
