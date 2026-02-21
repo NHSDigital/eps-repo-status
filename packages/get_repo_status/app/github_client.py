@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 from datetime import datetime
+import json
 from typing import Any, Dict, List, Optional, Tuple, TypedDict
 
 from github import Auth, Github
@@ -229,6 +230,25 @@ class GithubDataClient:
                 continue
             return stripped
         return None
+
+    def get_devcontainer_details(self, repo: Repo) -> Dict[str, str]:
+        repo_name = repo["repoUrl"]
+        ref = repo.get("mainBranch", "main")
+        content = self.get_text_file_from_repo(repo_name, ".devcontainer/devcontainer.json", ref)
+        if not content:
+            return {"IMAGE_NAME": "n/a", "IMAGE_VERSION": "n/a"}
+        try:
+            parsed = json.loads(content)
+        except Exception:  # pylint: disable=broad-except
+            return {"IMAGE_NAME": "n/a", "IMAGE_VERSION": "n/a"}
+        build = parsed.get("build") if isinstance(parsed, dict) else None
+        args = build.get("args") if isinstance(build, dict) else None
+        image_name = args.get("IMAGE_NAME") if isinstance(args, dict) else None
+        image_version = args.get("IMAGE_VERSION") if isinstance(args, dict) else None
+        return {
+            "IMAGE_NAME": image_name or "n/a",
+            "IMAGE_VERSION": image_version or "n/a",
+        }
 
     def get_latest_environment_tag(  # noqa: C901
         self, repo: Repo, environment: str

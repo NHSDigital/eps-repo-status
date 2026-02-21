@@ -264,6 +264,40 @@ def test_get_asdf_version_returns_first_non_comment_line(client: GithubDataClien
     assert version == "0.12.3"
 
 
+def test_get_devcontainer_details_returns_image_args_when_present(client: GithubDataClient, repo_factory) -> None:
+    client.get_text_file_from_repo = MagicMock(
+        return_value='{"build": {"args": {"IMAGE_NAME": "repo-image", "IMAGE_VERSION": "1.2.3"}}}'
+    )
+
+    result = client.get_devcontainer_details(repo_factory())
+
+    assert result == {"IMAGE_NAME": "repo-image", "IMAGE_VERSION": "1.2.3"}
+
+
+def test_get_devcontainer_details_returns_na_when_missing_keys(client: GithubDataClient, repo_factory) -> None:
+    client.get_text_file_from_repo = MagicMock(return_value='{"build": {"args": {}}}')
+
+    result = client.get_devcontainer_details(repo_factory())
+
+    assert result == {"IMAGE_NAME": "n/a", "IMAGE_VERSION": "n/a"}
+
+
+def test_get_devcontainer_details_returns_na_on_parse_error(client: GithubDataClient, repo_factory) -> None:
+    client.get_text_file_from_repo = MagicMock(return_value="{not-json}")
+
+    result = client.get_devcontainer_details(repo_factory())
+
+    assert result == {"IMAGE_NAME": "n/a", "IMAGE_VERSION": "n/a"}
+
+
+def test_get_devcontainer_details_returns_na_when_file_missing(client: GithubDataClient, repo_factory) -> None:
+    client.get_text_file_from_repo = MagicMock(return_value=None)
+
+    result = client.get_devcontainer_details(repo_factory())
+
+    assert result == {"IMAGE_NAME": "n/a", "IMAGE_VERSION": "n/a"}
+
+
 def test_get_latest_environment_tag_returns_latest_release_datetime(
     client: GithubDataClient, github_client: MagicMock, repo_factory
 ) -> None:
