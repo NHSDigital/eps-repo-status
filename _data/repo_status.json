@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-03-15T22:17:46",
+  "generated_date_time": "2026-03-15T23:19:44",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -1384,7 +1384,7 @@
       "high_code_scanning_alerts": 0,
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
-      "ci_workflow_status": "in_progress",
+      "ci_workflow_status": "failure",
       "ci_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23119995537",
       "release_workflow_status": "failure",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/22716948750",
@@ -1477,11 +1477,25 @@
           "name": "release_dev / Regression Tests / run_regression_tests",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23119995537/job/67153483864",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23119995537/job/67153483864",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "release_qa",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23119995537/job/67154281614",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23119995537/job/67154281614",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23120847587/job/67154501382",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23120847587/job/67154501382",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
-      "latest_commit_combined_check_runs_status": "success",
+      "latest_commit_combined_check_runs_status": "failure",
       "in_weekly_release": true,
       "latest_release_tag": "v2.19.2-beta",
       "latest_release_name": "v2.19.2-beta",
