@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-03-19T14:34:02",
+  "generated_date_time": "2026-03-19T15:31:23",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -151,6 +151,20 @@
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/23296120421/job/67745361031",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/23301922002/job/67765119191",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/23301922002/job/67765119191",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "delete-old-proxygen-deployments",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/23301922002/job/67765119330",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/23301922002/job/67765119330",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "failure",
@@ -2073,7 +2087,7 @@
       "high_code_scanning_alerts": 0,
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
-      "ci_workflow_status": "in_progress",
+      "ci_workflow_status": "waiting",
       "ci_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398",
       "release_workflow_status": "failure",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298266856",
@@ -2152,7 +2166,28 @@
           "name": "release_dev / release_all_code",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67754411990",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67754411990",
-          "status": "in_progress",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_dev / update_github_pages",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67758040803",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67758040803",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_dev / Regression Tests / run_regression_tests",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67758040917",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67758040917",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_qa / release_all_code",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67761455933",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298223398/job/67761455933",
+          "status": "waiting",
           "conclusion": null
         },
         {
@@ -2266,6 +2301,13 @@
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298266856/job/67754909852",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23300238094/job/67758934878",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23300238094/job/67758934878",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "failure",
@@ -2276,8 +2318,8 @@
       "latest_release_published_at": "2026-03-19T14:09:17",
       "latest_prod_tag": "v2.19.1-beta",
       "latest_prod_release_datetime": "2026-02-26T10:18:51",
-      "latest_dev_tag": "728584f6",
-      "latest_dev_release_datetime": "2026-03-18T12:37:07",
+      "latest_dev_tag": "f6df0d9e",
+      "latest_dev_release_datetime": "2026-03-19T14:31:38",
       "latest_qa_tag": "99c56f30",
       "latest_qa_release_datetime": "2026-03-09T13:28:18",
       "latest_ref_tag": "v2.19.2-beta",
@@ -7288,6 +7330,27 @@
           "name": "update_repo_status",
           "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23299510393/job/67756311199",
           "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23299510393/job/67756311199",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / get_config_values",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766142898",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766142898",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / verify_attestation",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766162627",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766162627",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "update_repo_status",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766208952",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23302199074/job/67766208952",
           "status": "in_progress",
           "conclusion": null
         }
