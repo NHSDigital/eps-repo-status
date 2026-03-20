@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-03-20T16:27:26",
+  "generated_date_time": "2026-03-20T17:27:51",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -1459,7 +1459,7 @@
       "high_code_scanning_alerts": 0,
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
-      "ci_workflow_status": "in_progress",
+      "ci_workflow_status": "success",
       "ci_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23339014631",
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23298266856",
@@ -1573,8 +1573,8 @@
           "name": "release_qa / Regression Tests / run_regression_tests",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23339014631/job/67931786433",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23339014631/job/67931786433",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "delete-old-cloudformation-stacks",
@@ -1608,6 +1608,13 @@
           "name": "delete-old-cloudformation-stacks",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23350132191/job/67926242535",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23350132191/job/67926242535",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23352560727/job/67934900887",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/23352560727/job/67934900887",
           "status": "completed",
           "conclusion": "success"
         }
@@ -6897,6 +6904,27 @@
           "name": "update_repo_status",
           "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23351871761/job/67932503137",
           "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23351871761/job/67932503137",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / get_config_values",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940846460",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940846460",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / verify_attestation",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940879632",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940879632",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "update_repo_status",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940919062",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/23354247651/job/67940919062",
           "status": "in_progress",
           "conclusion": null
         }
@@ -6944,7 +6972,7 @@
       "low_code_scanning_alerts": -1,
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
-      "release_workflow_status": "in_progress",
+      "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499",
       "latest_commit_check_runs": [
         {
@@ -6979,8 +7007,8 @@
           "name": "quality_checks / quality_checks",
           "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67932972913",
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67932972913",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
@@ -6988,6 +7016,258 @@
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67932987409",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "tag_release / install_semantic_release",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934071468",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934071468",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "tag_release / tag_release",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934253723",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934253723",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316773",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316773",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / discover_folders",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316783",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316783",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316831",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67934316831",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Publish combined image for base",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936066264",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936066264",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936121131",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936121131",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936121136",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67936121136",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Publish combined image for node_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937042629",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937042629",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099317",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099317",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099330",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099330",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099332",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099332",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099334",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099334",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099335",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099335",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099339",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099339",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099340",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099340",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099369",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67937099369",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Publish combined image for node_24_python_3_13",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938557006",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938557006",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Publish combined image for node_24_python_3_12",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938745682",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938745682",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Publish combined image for node_24_python_3_10",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938750412",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67938750412",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Publish combined image for node_24_python_3_14",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939003356",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939003356",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070936",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070936",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070943",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070943",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070944",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070944",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070945",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070945",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070953",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070953",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070959",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070959",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070960",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070960",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070975",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070975",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070979",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070979",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070996",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67939070996",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Publish combined image for eps-storage-terraform",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940349131",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940349131",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Publish combined image for node_24_python_3_14_java_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940639675",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940639675",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Publish combined image for node_24_python_3_14_golang_1_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940748063",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940748063",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Publish combined image for fhir_facade_api",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940983715",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67940983715",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Publish combined image for regression_tests",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67941263623",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352012348/job/67941263623",
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "get_asdf_version",
@@ -7014,8 +7294,8 @@
           "name": "quality_checks / quality_checks",
           "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67932990045",
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67932990045",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
@@ -7023,14 +7303,266 @@
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67933026366",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "tag_release / install_semantic_release",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934061424",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934061424",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "tag_release / tag_release",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934255883",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934255883",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / discover_folders",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934383978",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934383978",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934384117",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934384117",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934384123",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67934384123",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Publish combined image for base",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936169359",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936169359",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936225674",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936225674",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936225690",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67936225690",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Publish combined image for node_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937154690",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937154690",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242709",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242709",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242715",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242715",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242718",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242718",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242735",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242735",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242749",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242749",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242753",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242753",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242755",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242755",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242787",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67937242787",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Publish combined image for node_24_python_3_12",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939044486",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939044486",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Publish combined image for node_24_python_3_13",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939143925",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939143925",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Publish combined image for node_24_python_3_14",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939148190",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939148190",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Publish combined image for node_24_python_3_10",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939521788",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939521788",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645926",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645926",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645933",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645933",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645949",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645949",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645956",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645956",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645957",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645957",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645961",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645961",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645962",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645962",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645971",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645971",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645973",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645973",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645990",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67939645990",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Publish combined image for eps-storage-terraform",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67940975865",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67940975865",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Publish combined image for node_24_python_3_14_golang_1_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941257616",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941257616",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Publish combined image for node_24_python_3_14_java_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941346513",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941346513",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Publish combined image for regression_tests",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941489594",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941489594",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Publish combined image for fhir_facade_api",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941854969",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/23352016499/job/67941854969",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v1.1.4",
-      "latest_release_name": "v1.1.4",
-      "latest_release_url": "https://github.com/NHSDigital/eps-devcontainers/releases/tag/v1.1.4",
-      "latest_release_published_at": "2026-03-17T05:24:32",
+      "latest_release_tag": "v1.1.5",
+      "latest_release_name": "v1.1.5",
+      "latest_release_url": "https://github.com/NHSDigital/eps-devcontainers/releases/tag/v1.1.5",
+      "latest_release_published_at": "2026-03-20T16:29:44",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -7050,7 +7582,7 @@
       ],
       "devcontainer_image_name": "n/a",
       "devcontainer_image_version": "n/a",
-      "commits_since_last_release": 1,
+      "commits_since_last_release": 0,
       "main_branch": "main"
     }
   ]
