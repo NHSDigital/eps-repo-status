@@ -32,7 +32,7 @@ jobs:
           make install
       - name: Generate a token to get details from other repositories
         id: generate-token
-        uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf
+        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859
         with:
           app-id: ${{ vars.EPS_REPO_STATUS_APP_ID }}
           private-key: ${{ secrets.EPS_REPO_STATUS_PEM }}
