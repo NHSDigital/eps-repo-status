@@ -18,6 +18,7 @@ layout: page
       <th scope="col" data-sort-type="numeric">Medium code scanning alerts</th>
       <th scope="col" data-sort-type="numeric">Low code scanning alerts</th>
       <th scope="col" data-sort-type="string">Latest commit status</th>
+      <th scope="col" data-sort-type="string">Fork PR Contributor Approval</th>
     </tr>
   </thead>
   <tbody>
@@ -51,6 +52,7 @@ layout: page
         {% endif %}
       {% endif %}
     </td>
+    <td>{{ repo.fork_pr_contributor_approval }}</td>
   </tr>
   {% endfor %}
   </tbody>
