@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-04-07T11:34:31",
+  "generated_date_time": "2026-04-07T12:36:29",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -965,7 +965,7 @@
       "high_code_scanning_alerts": 0,
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
-      "ci_workflow_status": "in_progress",
+      "ci_workflow_status": "waiting",
       "ci_workflow_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536",
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/23739591189",
@@ -1058,8 +1058,8 @@
           "name": "release_dev / release_code_and_api",
           "html_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70233668087",
           "status_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70233668087",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_sandbox_dev / release_code_and_api",
@@ -1074,6 +1074,20 @@
           "status_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70234251181",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "release_dev / Regression Tests / run_regression_tests",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70235300976",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70235300976",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_qa / release_code_and_api",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70236215244",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-status-update-api/actions/runs/24078294536/job/70236215244",
+          "status": "waiting",
+          "conclusion": null
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -1084,8 +1098,8 @@
       "latest_release_published_at": "2026-03-30T10:23:35",
       "latest_prod_tag": "v1.16.6-beta",
       "latest_prod_release_datetime": "2026-03-23T10:34:26",
-      "latest_dev_tag": "646cd01e",
-      "latest_dev_release_datetime": "2026-04-04T01:20:56",
+      "latest_dev_tag": "95a6323d",
+      "latest_dev_release_datetime": "2026-04-07T11:34:31",
       "latest_qa_tag": "v1.16.9-beta",
       "latest_qa_release_datetime": "2026-03-30T10:57:12",
       "latest_ref_tag": "v1.16.9-beta",
@@ -1304,8 +1318,8 @@
       "latest_release_published_at": "2026-03-30T10:22:00",
       "latest_prod_tag": "v1.8.9-beta",
       "latest_prod_release_datetime": "2026-03-17T10:41:36",
-      "latest_dev_tag": "PR-1854",
-      "latest_dev_release_datetime": "2026-04-07T11:12:31",
+      "latest_dev_tag": "PR-1853",
+      "latest_dev_release_datetime": "2026-04-07T11:58:55",
       "latest_qa_tag": "ef86c22",
       "latest_qa_release_datetime": "2026-04-07T08:55:52",
       "latest_ref_tag": "v1.8.11-beta",
@@ -1525,6 +1539,13 @@
           "name": "delete-old-cloudformation-stacks",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24077193969/job/70228493568",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24077193969/job/70228493568",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24079397215/job/70235835800",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24079397215/job/70235835800",
           "status": "completed",
           "conclusion": "success"
         }
@@ -2456,7 +2477,7 @@
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api-regression-tests",
       "friendly_name": "eps regression test",
-      "non_dependabot_open_pull_requests": 8,
+      "non_dependabot_open_pull_requests": 9,
       "dependabot_open_pull_requests": 1,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 1,
@@ -6493,6 +6514,27 @@
           "name": "update_repo_status",
           "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24078763361/job/70233759559",
           "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24078763361/job/70233759559",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / get_config_values",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241564197",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241564197",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / verify_attestation",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241585347",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241585347",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "update_repo_status",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241612269",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24081078389/job/70241612269",
           "status": "in_progress",
           "conclusion": null
         }
