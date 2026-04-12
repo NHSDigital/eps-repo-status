@@ -1,5 +1,5 @@
 {
-  "generated_date_time": "2026-04-12T09:30:32",
+  "generated_date_time": "2026-04-12T10:26:53",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
@@ -128,18 +128,74 @@
           "name": "release_dev_sandbox / deploy to dev",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960538975",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960538975",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "release_dev / deploy to dev",
           "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960538982",
           "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960538982",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_dev_sandbox / Dispensing Regression Tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986876",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986876",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "release_dev_sandbox / Pact Tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986881",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986881",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "release_dev_sandbox / Prescribing Regression Tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986894",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70960986894",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "release_dev / Prescribing Regression Tests / run_regression_tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022839",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022839",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "release_dev / Pact Tests / run_pact_tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022851",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022851",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "release_dev / Dispensing Regression Tests / run_regression_tests",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022853",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961022853",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "release_ref",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961432814",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961432814",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "release_qa",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961432888",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api/actions/runs/24303108539/job/70961432888",
+          "status": "completed",
+          "conclusion": "skipped"
         }
       ],
-      "latest_commit_combined_check_runs_status": "success",
+      "latest_commit_combined_check_runs_status": "failure",
       "in_weekly_release": true,
       "latest_release_tag": "v1.2.3",
       "latest_release_name": "v1.2.3",
@@ -1928,6 +1984,13 @@
           "name": "delete-old-cloudformation-stacks",
           "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24302568125/job/70958362079",
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24302568125/job/70958362079",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24303613885/job/70961155139",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24303613885/job/70961155139",
           "status": "completed",
           "conclusion": "success"
         }
@@ -4483,6 +4546,27 @@
           "name": "update_repo_status",
           "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24303350550/job/70960467964",
           "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24303350550/job/70960467964",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / get_config_values",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70962993517",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70962993517",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / verify_attestation",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70963000990",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70963000990",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "update_repo_status",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70963013174",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24304325438/job/70963013174",
           "status": "in_progress",
           "conclusion": null
         }
