@@ -82,14 +82,14 @@ def test_init_wires_dependencies(
     runner = SetupGithubRepoRunner(gh_auth_token="token-123")
 
     mock_github.assert_called_once_with("token-123")
-    mock_repo_status_loader.assert_called_once_with(github_instance)
+    mock_repo_status_loader.assert_called_once_with()
     mock_github_setup_service.get_github_teams.assert_called_once_with(github=github_instance)
     mock_github_setup_service.assert_called_once_with(github=github_instance, github_teams=github_teams)
     mock_secrets_builder.assert_called_once_with(aws_exports_instance)
     assert runner._github_teams == github_teams
 
 
-def test_run_sets_up_only_eps_dependabot_approve_repo():
+def test_run_sets_up_only_eps_aws_dashboards_repo():
     runner = SetupGithubRepoRunner.__new__(SetupGithubRepoRunner)
     secrets = _secrets()
     runner._secrets_builder = MagicMock()
@@ -97,7 +97,7 @@ def test_run_sets_up_only_eps_dependabot_approve_repo():
     runner._print_setup_summary = MagicMock()
     runner._repo_status_loader = MagicMock()
     runner._repo_status_loader.load_repo_configs.return_value = [
-        _repo_config("NHSDigital/eps-dependabot-approve"),
+        _repo_config("NHSDigital/eps-aws-dashboards"),
         _repo_config("NHSDigital/other-repo"),
     ]
     runner._github_setup = MagicMock()
@@ -106,7 +106,7 @@ def test_run_sets_up_only_eps_dependabot_approve_repo():
 
     runner._print_setup_summary.assert_called_once_with(secrets_keys=sorted(asdict(secrets).keys()))
     runner._github_setup.setup_repo.assert_called_once_with(
-        repo_config=_repo_config("NHSDigital/eps-dependabot-approve"),
+        repo_config=_repo_config("NHSDigital/eps-aws-dashboards"),
         secrets=secrets,
     )
 

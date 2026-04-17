@@ -17,7 +17,7 @@ class SetupGithubRepoRunner:
     def __init__(self, gh_auth_token: str):
         self._github = Github(gh_auth_token)
         self._aws_exports = AwsExportsService()
-        self._repo_status_loader = RepoStatusLoader(self._github)
+        self._repo_status_loader = RepoStatusLoader()
 
         github_teams = GithubSetupService.get_github_teams(github=self._github)
         self._github_setup = GithubSetupService(

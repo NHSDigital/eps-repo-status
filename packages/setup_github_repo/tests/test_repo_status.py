@@ -10,31 +10,6 @@ repo_status = importlib.import_module("setup_github_repo.app.repo_status")
 RepoStatusLoader = repo_status.RepoStatusLoader
 
 
-class FakeContentFile:
-    def __init__(self, payload: dict):
-        self.decoded_content = json.dumps(payload).encode("utf-8")
-
-
-class FakeRepo:
-    def __init__(self, payload: dict):
-        self._payload = payload
-        self.last_get_contents_args: tuple[str, str] | None = None
-
-    def get_contents(self, path: str, ref: str):
-        self.last_get_contents_args = (path, ref)
-        return FakeContentFile(self._payload)
-
-
-class FakeGithub:
-    def __init__(self, payload: dict):
-        self._repo = FakeRepo(payload)
-        self.requested_repo_name: str | None = None
-
-    def get_repo(self, repo_name: str):
-        self.requested_repo_name = repo_name
-        return self._repo
-
-
 def test_parse_repos_payload_from_list_of_strings():
     payload = ["NHSDigital/repo-one", "NHSDigital/repo-two"]
 
@@ -86,7 +61,7 @@ def test_parse_repos_payload_rejects_invalid_shape():
         repo_status._parse_repos_payload({"notRepos": []})
 
 
-def test_load_repo_configs_from_local_repos_file(tmp_path: Path):
+def test_load_repo_configs_from_local_repos_file():
     payload = {
         "repos": [
             {
@@ -104,16 +79,13 @@ def test_load_repo_configs_from_local_repos_file(tmp_path: Path):
     original_content = root_repos_file.read_text(encoding="utf-8")
     root_repos_file.write_text(json.dumps(payload), encoding="utf-8")
 
-    fake_github = FakeGithub(payload)
-    loader = RepoStatusLoader(fake_github)  # type: ignore[arg-type]
+    loader = RepoStatusLoader()
 
     try:
         result = loader.load_repo_configs()
     finally:
         root_repos_file.write_text(original_content, encoding="utf-8")
 
-    assert fake_github.requested_repo_name is None
-    assert fake_github._repo.last_get_contents_args is None
     assert result[0].repoUrl == "NHSDigital/repo-one"
     assert result[0].mainBranch == "main"
     assert result[0].setTargetSpineServers is True

@@ -4,8 +4,6 @@ import json
 from pathlib import Path
 from typing import Any
 
-from github import Github
-
 from .models import RepoConfig
 
 
@@ -80,9 +78,6 @@ def _parse_repos_payload(payload: Any) -> list[RepoConfig]:
 
 class RepoStatusLoader:
     """Load repository setup configuration from the local repos.json file."""
-
-    def __init__(self, github: Github):
-        self._github = github
 
     def load_repo_configs(self) -> list[RepoConfig]:
         repos_path = Path(__file__).resolve().parents[3] / "repos.json"
