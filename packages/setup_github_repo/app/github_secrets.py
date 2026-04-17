@@ -19,17 +19,17 @@ class GithubSecretManager(GithubOperationBase):
 
         repo = self._github.get_repo(repo_url)
 
-        self._set_secret(
+        self._set_environment_secret(
             repo=repo,
+            environment_name="create_pull_request",
             secret_name="AUTOMERGE_PEM",
             secret_value=secrets.automerge_pem,
-            set_dependabot=True,
         )
-        self._set_secret(
+        self._set_environment_secret(
             repo=repo,
+            environment_name="create_pull_request",
             secret_name="AUTOMERGE_APP_ID",
             secret_value=AUTOMERGE_APP_ID,
-            set_dependabot=True,
         )
         self._set_secret(
             repo=repo,
