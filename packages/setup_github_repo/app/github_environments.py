@@ -35,7 +35,7 @@ class GithubEnvironmentManager(GithubOperationBase):
             return
 
         int_deployment_branch_policy = deployment_branch_policy
-        if repo.name == "NHSDigital/electronic-prescription-service-api-regression-tests":
+        if repo.full_name == "NHSDigital/electronic-prescription-service-api-regression-tests":
             int_deployment_branch_policy = None
 
         common_environments: list[RepoEnvironment] = [
