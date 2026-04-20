@@ -1,10 +1,10 @@
 {
-  "generated_date_time": "2026-04-20T16:43:08",
+  "generated_date_time": "2026-04-20T17:39:58",
   "repos": [
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api",
       "friendly_name": "fhir facade API",
-      "non_dependabot_open_pull_requests": 11,
+      "non_dependabot_open_pull_requests": 12,
       "dependabot_open_pull_requests": 10,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 4,
@@ -2783,6 +2783,13 @@
           "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24676179890/job/72160661205",
           "status": "completed",
           "conclusion": "success"
+        },
+        {
+          "name": "delete-old-cloudformation-stacks",
+          "html_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24678673755/job/72169682920",
+          "status_url": "https://github.com/NHSDigital/eps-prescription-tracker-ui/actions/runs/24678673755/job/72169682920",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -2820,7 +2827,7 @@
     {
       "repo_url": "NHSDigital/eps-FHIR-validator-lambda",
       "friendly_name": "fhir validator lambda",
-      "non_dependabot_open_pull_requests": 5,
+      "non_dependabot_open_pull_requests": 4,
       "dependabot_open_pull_requests": 5,
       "critical_dependabot_alerts": 12,
       "high_dependabot_alerts": 1,
@@ -2831,212 +2838,107 @@
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "waiting",
-      "ci_workflow_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623",
+      "ci_workflow_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696",
       "release_workflow_status": "waiting",
       "release_workflow_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/runs/72113781873",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/runs/72113781873",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/runs/72169711225",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/runs/72169711225",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_commit_id",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943925689",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943925689",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168731177",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168731177",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943925721",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943925721",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168731202",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168731202",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943930961",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943930961",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942855",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942855",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168767431",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168767431",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942862",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942862",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168806942",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168806942",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942866",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71943942866",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168806947",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168806947",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / quality_checks",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168807021",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72168807021",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944009181",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944009181",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72169046118",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72169046118",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
           "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944169860",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944169860",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72169720499",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72169720499",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "package_code / sam_package_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944243462",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944243462",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72170113557",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72170113557",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "release_dev / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944423356",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944423356",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72170864726",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72170864726",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "release_qa / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944670553",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602702623/job/71944670553",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72172047490",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678409696/job/72172047490",
           "status": "waiting",
           "conclusion": null
         },
         {
           "name": "submit-maven",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602703752/job/71943928857",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24602703752/job/71943928857",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678411430/job/72168740429",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24678411430/job/72168740429",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "delete-old-cloudformation-stacks",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24617150455/job/71981164074",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24617150455/job/71981164074",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24680747011/job/72177027156",
+          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24680747011/job/72177027156",
           "status": "completed",
           "conclusion": "success"
-        },
-        {
-          "name": "delete-old-cloudformation-stacks",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24642806215/job/72049694487",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24642806215/job/72049694487",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24652130537/job/72077013098",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24652130537/job/72077013098",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "get_commit_id",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112876767",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112876767",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112876848",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112876848",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112893565",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112893565",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112942994",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112942994",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112943040",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112943040",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112943041",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72112943041",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72113456974",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72113456974",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72113794523",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72113794523",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "package_code / sam_package_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72114128252",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72114128252",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "release_dev / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72114772577",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72114772577",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "release_qa / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72115603309",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72115603309",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "release_ref / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72115603321",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72115603321",
-          "status": "waiting",
-          "conclusion": null
-        },
-        {
-          "name": "release_int / sam_release_code",
-          "html_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72123464304",
-          "status_url": "https://github.com/NHSDigital/eps-FHIR-validator-lambda/actions/runs/24662825704/job/72123464304",
-          "status": "waiting",
-          "conclusion": null
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -3047,8 +2949,8 @@
       "latest_release_published_at": "2026-04-20T11:08:21",
       "latest_prod_tag": "v1.1.54",
       "latest_prod_release_datetime": "2026-03-17T10:31:57",
-      "latest_dev_tag": "v1.1.58",
-      "latest_dev_release_datetime": "2026-04-20T11:19:20",
+      "latest_dev_tag": "bbd957e",
+      "latest_dev_release_datetime": "2026-04-20T16:57:25",
       "latest_qa_tag": "v1.1.58",
       "latest_qa_release_datetime": "2026-04-20T12:15:43",
       "latest_ref_tag": "v1.1.57",
@@ -3069,14 +2971,14 @@
       ],
       "devcontainer_image_name": "node_24_python_3_14_java_24",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 0,
+      "commits_since_last_release": 1,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
     {
       "repo_url": "NHSDigital/validation-service-fhir-r4",
       "friendly_name": "fhir validator docker",
-      "non_dependabot_open_pull_requests": 7,
+      "non_dependabot_open_pull_requests": 6,
       "dependabot_open_pull_requests": 5,
       "critical_dependabot_alerts": 12,
       "high_dependabot_alerts": 8,
@@ -3089,82 +2991,82 @@
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
       "release_workflow_status": "success",
-      "release_workflow_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201",
+      "release_workflow_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/runs/71884561310",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/runs/71884561310",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/runs/72169733777",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/runs/72169733777",
           "status": "completed",
           "conclusion": "failure"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883871229",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883871229",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168767047",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168767047",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883891211",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883891211",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168799737",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168799737",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "build",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912890",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912890",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853140",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853140",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912912",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912912",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853223",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853223",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912924",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912924",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853228",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853228",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912929",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71883912929",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853230",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72168853230",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan (validator)",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71884107534",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71884107534",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72169145249",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72169145249",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "package_code",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71884703852",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582554201/job/71884703852",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72169883286",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419418/job/72169883286",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "submit-maven",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582559121/job/71883890114",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24582559121/job/71883890114",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419801/job/72168771344",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24678419801/job/72168771344",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24652907180/job/72079473380",
-          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24652907180/job/72079473380",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24680468455/job/72176045560",
+          "status_url": "https://github.com/NHSDigital/validation-service-fhir-r4/actions/runs/24680468455/job/72176045560",
           "status": "completed",
           "conclusion": "success"
         }
@@ -3194,14 +3096,14 @@
       ],
       "devcontainer_image_name": "node_24_python_3_14_java_24",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 5,
+      "commits_since_last_release": 6,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-release-notes",
       "friendly_name": "release notes",
-      "non_dependabot_open_pull_requests": 1,
+      "non_dependabot_open_pull_requests": 0,
       "dependabot_open_pull_requests": 1,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 0,
@@ -3213,107 +3115,100 @@
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
-      "release_workflow_status": "failure",
-      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745",
+      "release_workflow_status": "success",
+      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975",
       "latest_commit_check_runs": [
         {
-          "name": "get_commit_id",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943944287",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943944287",
+          "name": "SonarCloud Code Analysis",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/runs/72169451483",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/runs/72169451483",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943944289",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943944289",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168798682",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168798682",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_commit_id",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168798768",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168798768",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943949721",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943949721",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957842",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957842",
-          "status": "completed",
-          "conclusion": "failure"
-        },
-        {
-          "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957844",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957844",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168825652",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168825652",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957846",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71943957846",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168856942",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168856942",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / quality_checks",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168857000",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168857000",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / get_docker_images_to_scan",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168857001",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72168857001",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944018498",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944018498",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169098646",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169098646",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
-          "name": "tag_release",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105480",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105480",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "package_code",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105540",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105540",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "release_dev",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105607",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24602709745/job/71944105607",
-          "status": "completed",
-          "conclusion": "skipped"
-        },
-        {
-          "name": "delete-old-cloudformation-stacks",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24617374979/job/71981786250",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24617374979/job/71981786250",
+          "name": "tag_release / tag_release",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169464074",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169464074",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "delete-old-cloudformation-stacks",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24643097893/job/72050516828",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24643097893/job/72050516828",
+          "name": "package_code / cdk_package_code",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169806511",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72169806511",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24652670317/job/72078724072",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24652670317/job/72078724072",
+          "name": "release_dev / cdk_release_code",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72170228945",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24678427975/job/72170228945",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24680372801/job/72175702209",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/actions/runs/24680372801/job/72175702209",
           "status": "completed",
           "conclusion": "success"
         }
       ],
-      "latest_commit_combined_check_runs_status": "failure",
+      "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v1.1.93-alpha",
-      "latest_release_name": "v1.1.93-alpha",
-      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/releases/tag/v1.1.93-alpha",
-      "latest_release_published_at": "2026-04-17T20:22:21",
+      "latest_release_tag": "v1.1.94-alpha",
+      "latest_release_name": "v1.1.94-alpha",
+      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-release-notes/releases/tag/v1.1.94-alpha",
+      "latest_release_published_at": "2026-04-20T16:43:29",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -3333,14 +3228,14 @@
       ],
       "devcontainer_image_name": "node_24_python_3_12",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 1,
+      "commits_since_last_release": 0,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
     {
       "repo_url": "NHSDigital/electronic-prescription-service-get-secrets",
       "friendly_name": "get secrets",
-      "non_dependabot_open_pull_requests": 2,
+      "non_dependabot_open_pull_requests": 1,
       "dependabot_open_pull_requests": 3,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 0,
@@ -3353,85 +3248,85 @@
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
       "release_workflow_status": "success",
-      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384",
+      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/runs/71875473509",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/runs/71875473509",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/runs/72169524322",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/runs/72169524322",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874951300",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874951300",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168844651",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168844651",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874968338",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874968338",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "build / build",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997058",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997058",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997062",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997062",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997073",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997073",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168872639",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168872639",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997074",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71874997074",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910399",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910399",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / quality_checks",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910425",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910425",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / IaC-validation",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910442",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910442",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build / build",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910470",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72168910470",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71875257961",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71875257961",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72169192875",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72169192875",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
           "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71875327983",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24579958384/job/71875327983",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72169246320",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24678440524/job/72169246320",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24652146869/job/72077063294",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24652146869/job/72077063294",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24680512652/job/72176200589",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/actions/runs/24680512652/job/72176200589",
           "status": "completed",
           "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v1.0.726-alpha",
-      "latest_release_name": "v1.0.726-alpha",
-      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/releases/tag/v1.0.726-alpha",
-      "latest_release_published_at": "2026-04-17T18:18:12",
+      "latest_release_tag": "v1.0.727-alpha",
+      "latest_release_name": "v1.0.727-alpha",
+      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-get-secrets/releases/tag/v1.0.727-alpha",
+      "latest_release_published_at": "2026-04-20T16:42:28",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -3458,7 +3353,7 @@
     {
       "repo_url": "NHSDigital/nhs-fhir-middy-error-handler",
       "friendly_name": "fhir middy error handler",
-      "non_dependabot_open_pull_requests": 1,
+      "non_dependabot_open_pull_requests": 0,
       "dependabot_open_pull_requests": 0,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 0,
@@ -3469,70 +3364,70 @@
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "success",
-      "ci_workflow_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156",
+      "ci_workflow_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533",
       "release_workflow_status": "failure",
       "release_workflow_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24445058978",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/71905243006",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/71905243006",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/72169517819",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/runs/72169517819",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904876996",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904876996",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168874395",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168874395",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904890203",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904890203",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168894966",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168894966",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912691",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912691",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912692",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912692",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938017",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938017",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912703",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71904912703",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938018",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938018",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / quality_checks",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938058",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72168938058",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71905071993",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71905071993",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72169209724",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72169209724",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
           "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71905255917",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24588816156/job/71905255917",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72169532386",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24678448533/job/72169532386",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24652864790/job/72079337502",
-          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24652864790/job/72079337502",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24680466741/job/72176038091",
+          "status_url": "https://github.com/NHSDigital/nhs-fhir-middy-error-handler/actions/runs/24680466741/job/72176038091",
           "status": "completed",
           "conclusion": "success"
         }
@@ -3562,14 +3457,14 @@
       ],
       "devcontainer_image_name": "node_24_python_3_14",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 5,
+      "commits_since_last_release": 6,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
     {
       "repo_url": "NHSDigital/nhs-eps-spine-client",
       "friendly_name": "eps spine client",
-      "non_dependabot_open_pull_requests": 1,
+      "non_dependabot_open_pull_requests": 0,
       "dependabot_open_pull_requests": 1,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 0,
@@ -3580,70 +3475,70 @@
       "medium_code_scanning_alerts": 0,
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "success",
-      "ci_workflow_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750",
+      "ci_workflow_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839",
       "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24444725484",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/runs/71905721499",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/runs/71905721499",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/runs/72169561633",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/runs/72169561633",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905344373",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905344373",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168923568",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168923568",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905354985",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905354985",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383512",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383512",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383515",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383515",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168949602",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168949602",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383526",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905383526",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983902",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983902",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / IaC-validation",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983905",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983905",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / get_docker_images_to_scan",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983925",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72168983925",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905519391",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905519391",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72169195646",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72169195646",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
           "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905735261",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24588961750/job/71905735261",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72169574706",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24678461839/job/72169574706",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24652880372/job/72079387752",
-          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24652880372/job/72079387752",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24680731755/job/72176970614",
+          "status_url": "https://github.com/NHSDigital/nhs-eps-spine-client/actions/runs/24680731755/job/72176970614",
           "status": "completed",
           "conclusion": "success"
         }
@@ -3673,7 +3568,7 @@
       ],
       "devcontainer_image_name": "node_24_python_3_14",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 7,
+      "commits_since_last_release": 8,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
@@ -3727,7 +3622,7 @@
     {
       "repo_url": "NHSDigital/electronic-prescription-service-api-regression-tests",
       "friendly_name": "eps regression test",
-      "non_dependabot_open_pull_requests": 10,
+      "non_dependabot_open_pull_requests": 9,
       "dependabot_open_pull_requests": 1,
       "critical_dependabot_alerts": 0,
       "high_dependabot_alerts": 0,
@@ -3740,92 +3635,92 @@
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
       "release_workflow_status": "success",
-      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381",
+      "release_workflow_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045",
       "latest_commit_check_runs": [
         {
           "name": "SonarCloud Code Analysis",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/runs/71944377641",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/runs/71944377641",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/runs/72169654500",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/runs/72169654500",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_commit_id",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944212536",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944212536",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168949641",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168949641",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / get_config_values",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944212539",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944212539",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168949678",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168949678",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "get_config_values / verify_attestation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944218100",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944218100",
-          "status": "completed",
-          "conclusion": "success"
-        },
-        {
-          "name": "quality_checks / get_docker_images_to_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225378",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225378",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168975425",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72168975425",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / quality_checks",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225379",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225379",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015342",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015342",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225392",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944225392",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015356",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015356",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality_checks / get_docker_images_to_scan",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015447",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169015447",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944293904",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944293904",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169307260",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169307260",
           "status": "completed",
           "conclusion": "skipped"
         },
         {
           "name": "generate_behave_steps_catalog",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944380387",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944380387",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169668996",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169668996",
           "status": "completed",
           "conclusion": "success"
         },
         {
           "name": "tag_release / tag_release",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944380410",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24602816381/job/71944380410",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169669059",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24678469045/job/72169669059",
           "status": "completed",
           "conclusion": "success"
         },
         {
-          "name": "sync-copilot-instructions",
-          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24652609653/job/72078532968",
-          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24652609653/job/72078532968",
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24680522973/job/72176238243",
+          "status_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/actions/runs/24680522973/job/72176238243",
           "status": "completed",
           "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v3.12.25",
-      "latest_release_name": "v3.12.25",
-      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/releases/tag/v3.12.25",
-      "latest_release_published_at": "2026-04-18T10:40:43",
+      "latest_release_tag": "v3.12.26",
+      "latest_release_name": "v3.12.26",
+      "latest_release_url": "https://github.com/NHSDigital/electronic-prescription-service-api-regression-tests/releases/tag/v3.12.26",
+      "latest_release_published_at": "2026-04-20T16:44:59",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -4886,6 +4781,20 @@
           "name": "auto-approve-dependabot",
           "html_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24678048627/job/72167433837",
           "status_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24678048627/job/72167433837",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24679251174/job/72171704671",
+          "status_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24679251174/job/72171704671",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24680626005/job/72176599355",
+          "status_url": "https://github.com/NHSDigital/eps-aws-dashboards/actions/runs/24680626005/job/72176599355",
           "status": "completed",
           "conclusion": "success"
         }
@@ -6109,6 +6018,20 @@
           "status_url": "https://github.com/NHSDigital/eps-vpc-resources/actions/runs/24677876096/job/72166803941",
           "status": "completed",
           "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-vpc-resources/actions/runs/24678944469/job/72170643478",
+          "status_url": "https://github.com/NHSDigital/eps-vpc-resources/actions/runs/24678944469/job/72170643478",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-vpc-resources/actions/runs/24680370913/job/72175695340",
+          "status_url": "https://github.com/NHSDigital/eps-vpc-resources/actions/runs/24680370913/job/72175695340",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -6160,9 +6083,16 @@
       "low_code_scanning_alerts": 0,
       "ci_workflow_status": "N/A",
       "ci_workflow_url": "N/A",
-      "release_workflow_status": "in_progress",
+      "release_workflow_status": "success",
       "release_workflow_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704",
       "latest_commit_check_runs": [
+        {
+          "name": "SonarCloud Code Analysis",
+          "html_url": "https://github.com/NHSDigital/eps-common-workflows/runs/72169691325",
+          "status_url": "https://github.com/NHSDigital/eps-common-workflows/runs/72169691325",
+          "status": "completed",
+          "conclusion": "success"
+        },
         {
           "name": "get_config_values / get_config_values",
           "html_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169066277",
@@ -6188,15 +6118,15 @@
           "name": "quality_checks / quality_checks",
           "html_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169119796",
           "status_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169119796",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "quality_checks / IaC-validation",
           "html_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169119809",
           "status_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169119809",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "quality_checks / docker_vulnerability_scan",
@@ -6204,14 +6134,28 @@
           "status_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169384255",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "tag_release / tag_release",
+          "html_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169710486",
+          "status_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24678501704/job/72169710486",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24680445550/job/72175960978",
+          "status_url": "https://github.com/NHSDigital/eps-common-workflows/actions/runs/24680445550/job/72175960978",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
       "in_weekly_release": false,
-      "latest_release_tag": "v6.0.12",
-      "latest_release_name": "v6.0.12",
-      "latest_release_url": "https://github.com/NHSDigital/eps-common-workflows/releases/tag/v6.0.12",
-      "latest_release_published_at": "2026-04-18T10:40:04",
+      "latest_release_tag": "v6.0.13",
+      "latest_release_name": "v6.0.13",
+      "latest_release_url": "https://github.com/NHSDigital/eps-common-workflows/releases/tag/v6.0.13",
+      "latest_release_published_at": "2026-04-20T16:45:03",
       "latest_prod_tag": null,
       "latest_prod_release_datetime": null,
       "latest_dev_tag": null,
@@ -6231,7 +6175,7 @@
       ],
       "devcontainer_image_name": "node_24_python_3_14",
       "devcontainer_image_version": "v1.4.8",
-      "commits_since_last_release": 1,
+      "commits_since_last_release": 0,
       "main_branch": "main",
       "fork_pr_contributor_approval": "all_external_contributors"
     },
@@ -6315,6 +6259,13 @@
           "status_url": "https://github.com/NHSDigital/eps-spine-shared/actions/runs/24678178690/job/72168170851",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-spine-shared/actions/runs/24680509805/job/72176190499",
+          "status_url": "https://github.com/NHSDigital/eps-spine-shared/actions/runs/24680509805/job/72176190499",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "failure",
@@ -6522,6 +6473,41 @@
           "name": "update_repo_status",
           "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24678025409/job/72167413139",
           "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24678025409/job/72167413139",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24679032342/job/72170943956",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24679032342/job/72170943956",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680508627/job/72176186399",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680508627/job/72176186399",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / get_config_values",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176422610",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176422610",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "get_config_values / verify_attestation",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176456019",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176456019",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "update_repo_status",
+          "html_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176482686",
+          "status_url": "https://github.com/NHSDigital/eps-repo-status/actions/runs/24680575964/job/72176482686",
           "status": "in_progress",
           "conclusion": null
         }
@@ -6640,15 +6626,274 @@
           "name": "build_all_images / Build tool images for on amd64",
           "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169461330",
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169461330",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
         },
         {
           "name": "build_all_images / Build tool images for on arm64",
           "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169461503",
           "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169461503",
-          "status": "in_progress",
-          "conclusion": null
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169610710",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169610710",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Build image for base on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169610743",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72169610743",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_docker_image / Publish combined image for base",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171522402",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171522402",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171598418",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171598418",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Build image for node_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171598473",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72171598473",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_base_node_images (node_24) / Publish combined image for node_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72172995253",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72172995253",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078706",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078706",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078712",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078712",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078713",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078713",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Build image for node_24_python_3_12 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078725",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078725",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078738",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078738",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Build image for node_24_python_3_14 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078743",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078743",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Build image for node_24_python_3_10 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078745",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078745",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Build image for node_24_python_3_13 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078762",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72173078762",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_10) / Publish combined image for node_24_python_3_10",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175071106",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175071106",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_12) / Publish combined image for node_24_python_3_12",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175217911",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175217911",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_13) / Publish combined image for node_24_python_3_13",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175299280",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175299280",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_node_24_language_docker_images (node_24_python_3_14) / Publish combined image for node_24_python_3_14",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175345152",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175345152",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398984",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398984",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398993",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398993",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398997",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175398997",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Build image for node_24_python_3_14_java_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399002",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399002",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Build image for eps-storage-terraform on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399005",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399005",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-data-extract) / Build image for eps-data-extract on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399007",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399007",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399012",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399012",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Build image for fhir_facade_api on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399014",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399014",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-data-extract) / Build image for eps-data-extract on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399015",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399015",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Build image for node_24_python_3_14_golang_1_24 on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399040",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399040",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on arm64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399058",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399058",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Build image for regression_tests on amd64",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399075",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72175399075",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-storage-terraform) / Publish combined image for eps-storage-terraform",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177364195",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177364195",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (eps-data-extract) / Publish combined image for eps-data-extract",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177435192",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177435192",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_java_24) / Publish combined image for node_24_python_3_14_java_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177552207",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177552207",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (node_24_python_3_14_golang_1_24) / Publish combined image for node_24_python_3_14_golang_1_24",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177617754",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177617754",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (regression_tests) / Publish combined image for regression_tests",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177954845",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72177954845",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "build_all_images / package_project_docker_images (fhir_facade_api) / Publish combined image for fhir_facade_api",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72178104332",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24678381296/job/72178104332",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24680465252/job/72176033197",
+          "status_url": "https://github.com/NHSDigital/eps-devcontainers/actions/runs/24680465252/job/72176033197",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -6793,6 +7038,13 @@
           "status_url": "https://github.com/NHSDigital/eps-copilot-instructions/actions/runs/24678491739/job/72169342171",
           "status": "completed",
           "conclusion": "skipped"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-copilot-instructions/actions/runs/24680584624/job/72176452837",
+          "status_url": "https://github.com/NHSDigital/eps-copilot-instructions/actions/runs/24680584624/job/72176452837",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -6902,6 +7154,20 @@
           "name": "auto-approve-dependabot",
           "html_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24678029884/job/72167366230",
           "status_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24678029884/job/72167366230",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24679210393/job/72171562322",
+          "status_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24679210393/job/72171562322",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24680584584/job/72176452507",
+          "status_url": "https://github.com/NHSDigital/eps-update-devcontainer/actions/runs/24680584584/job/72176452507",
           "status": "completed",
           "conclusion": "success"
         }
@@ -7015,6 +7281,20 @@
           "status_url": "https://github.com/NHSDigital/eps-repo-template/actions/runs/24677964707/job/72167128776",
           "status": "completed",
           "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-repo-template/actions/runs/24679109584/job/72171214648",
+          "status_url": "https://github.com/NHSDigital/eps-repo-template/actions/runs/24679109584/job/72171214648",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-repo-template/actions/runs/24680532264/job/72176270035",
+          "status_url": "https://github.com/NHSDigital/eps-repo-template/actions/runs/24680532264/job/72176270035",
+          "status": "completed",
+          "conclusion": "success"
         }
       ],
       "latest_commit_combined_check_runs_status": "success",
@@ -7124,6 +7404,20 @@
           "name": "auto-approve-dependabot",
           "html_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24677766112/job/72166408821",
           "status_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24677766112/job/72166408821",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24678929884/job/72170594572",
+          "status_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24678929884/job/72170594572",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "auto-approve-dependabot",
+          "html_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24680383427/job/72175740714",
+          "status_url": "https://github.com/NHSDigital/eps-dependabot-approve/actions/runs/24680383427/job/72175740714",
           "status": "completed",
           "conclusion": "success"
         }
