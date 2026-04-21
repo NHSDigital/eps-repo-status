@@ -87,16 +87,14 @@ def test_set_all_secrets_only_creates_baseline_secrets_when_not_in_weekly_releas
     manager.set_all_secrets(_repo_config(in_weekly_release=False), _secrets())
 
     set_secret_names = [call.kwargs["secret_name"] for call in manager._set_secret.call_args_list]
-    assert set_secret_names == [
-        "AUTOMERGE_PEM",
-        "AUTOMERGE_APP_ID",
-        "DEPENDABOT_TOKEN",
-    ]
+    assert set_secret_names == ["DEPENDABOT_TOKEN"]
 
     set_environment_secret_names = [
         call.kwargs["secret_name"] for call in manager._set_environment_secret.call_args_list
     ]
     assert set_environment_secret_names == [
+        "AUTOMERGE_PEM",
+        "AUTOMERGE_APP_ID",
         "CREATE_PULL_REQUEST_PEM",
         "CREATE_PULL_REQUEST_APP_ID",
     ]
@@ -129,17 +127,13 @@ def test_set_all_secrets_creates_additional_secrets_when_in_weekly_release():
     manager.set_all_secrets(_repo_config(in_weekly_release=True), _secrets())
 
     set_secret_names = [call.kwargs["secret_name"] for call in manager._set_secret.call_args_list]
-    assert set_secret_names[:3] == [
-        "AUTOMERGE_PEM",
-        "AUTOMERGE_APP_ID",
-        "DEPENDABOT_TOKEN",
-    ]
+    assert "DEPENDABOT_TOKEN" in set_secret_names
     assert "DEV_CLOUD_FORMATION_EXECUTE_LAMBDA_ROLE" in set_secret_names
     assert "REGRESSION_TESTS_PEM" in set_secret_names
     assert "REF_ARTILLERY_RUNNER_ROLE" in set_secret_names
 
     role_env_names = [call.kwargs["env_name"] for call in manager._set_role_secrets.call_args_list]
-    assert role_env_names == ["DEV", "INT", "PROD", "QA", "REF", "REF", "RECOVERY"]
+    assert role_env_names == ["DEV", "INT", "PROD", "QA", "REF", "RECOVERY"]
 
     fake_github.get_repo.assert_called_once_with("NHSDigital/example-repo")
 

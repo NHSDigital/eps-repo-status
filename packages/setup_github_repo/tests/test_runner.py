@@ -1,7 +1,7 @@
 """Unit tests for SetupGithubRepoRunner orchestration and dependency wiring."""
 
 from dataclasses import asdict
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock, call, patch
 
 from setup_github_repo.app.models import GithubTeams, RepoConfig, Roles, Secrets
 from setup_github_repo.app.runner import SetupGithubRepoRunner
@@ -89,7 +89,7 @@ def test_init_wires_dependencies(
     assert runner._github_teams == github_teams
 
 
-def test_run_sets_up_only_eps_aws_dashboards_repo():
+def test_run_sets_up_all_loaded_repos():
     runner = SetupGithubRepoRunner.__new__(SetupGithubRepoRunner)
     secrets = _secrets()
     runner._secrets_builder = MagicMock()
@@ -105,10 +105,13 @@ def test_run_sets_up_only_eps_aws_dashboards_repo():
     runner.run()
 
     runner._print_setup_summary.assert_called_once_with(secrets_keys=sorted(asdict(secrets).keys()))
-    runner._github_setup.setup_repo.assert_called_once_with(
-        repo_config=_repo_config("NHSDigital/eps-aws-dashboards"),
-        secrets=secrets,
+    runner._github_setup.setup_repo.assert_has_calls(
+        [
+            call(repo_config=_repo_config("NHSDigital/eps-aws-dashboards"), secrets=secrets),
+            call(repo_config=_repo_config("NHSDigital/other-repo"), secrets=secrets),
+        ]
     )
+    assert runner._github_setup.setup_repo.call_count == 2
 
 
 def test_run_skips_setup_when_no_matching_repo():
@@ -123,7 +126,10 @@ def test_run_skips_setup_when_no_matching_repo():
 
     runner.run()
 
-    runner._github_setup.setup_repo.assert_not_called()
+    runner._github_setup.setup_repo.assert_called_once_with(
+        repo_config=_repo_config("NHSDigital/other-repo"),
+        secrets=secrets,
+    )
 
 
 def test_print_setup_summary_displays_team_and_secret_keys(capsys):
