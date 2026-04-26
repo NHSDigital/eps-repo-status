@@ -81,6 +81,13 @@ class GithubEnvironmentManager(GithubOperationBase):
 
     def _setup_account_resources_environments(self, repo: Repository, environment: RepoEnvironment) -> None:
         print(f"Setting up account-resources environments in repo {repo.name}")
+        print(f"Creating {environment.name} environment")
+        repo.create_environment(
+            f"{environment.name}",
+            reviewers=environment.reviewers,
+            deployment_branch_policy=environment.deployment_branch_policy,
+        )
+        self._sleep_for_rate_limit()
         for suffix in ["ci", "account", "lambda"]:
             print(f"Creating {environment.name}-{suffix} environment")
             repo.create_environment(
