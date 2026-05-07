@@ -44,6 +44,7 @@ class SecretsBuilder:
             eps_multi_repo_deployment_pem=self._read_secret_file("eps_multi_repo_deployment.pem"),
             automerge_pem=self._read_secret_file("automerge.pem"),
             create_pull_request_pem=self._read_secret_file("create_pull_request.pem"),
+            attestation_verify_pem=self._read_secret_file("attestation_verify.pem"),
             dev_roles=roles_by_env["dev"],
             int_roles=roles_by_env["int"],
             prod_roles=roles_by_env["prod"],

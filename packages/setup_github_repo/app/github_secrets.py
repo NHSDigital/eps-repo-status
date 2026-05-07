@@ -4,7 +4,7 @@ import os
 
 from github.Repository import Repository
 
-from .constants import AUTOMERGE_APP_ID, CREATE_PULL_REQUEST_APP_ID
+from .constants import AUTOMERGE_APP_ID, CREATE_PULL_REQUEST_APP_ID, ATTESTATION_VERIFY_APP_ID
 from .github_base import GithubOperationBase
 from .models import RepoConfig, Roles, Secrets
 
@@ -48,6 +48,18 @@ class GithubSecretManager(GithubOperationBase):
             environment_name="create_pull_request",
             secret_name="CREATE_PULL_REQUEST_APP_ID",
             secret_value=CREATE_PULL_REQUEST_APP_ID,
+        )
+        self._set_secret(
+            repo=repo,
+            secret_name="ATTESTATION_VERIFY_APP_ID",
+            secret_value=ATTESTATION_VERIFY_APP_ID,
+            set_dependabot=True,
+        )
+        self._set_secret(
+            repo=repo,
+            secret_name="ATTESTATION_VERIFY_PEM",
+            secret_value=secrets.attestation_verify_pem,
+            set_dependabot=True,
         )
 
         if not repo_config.inWeeklyRelease:

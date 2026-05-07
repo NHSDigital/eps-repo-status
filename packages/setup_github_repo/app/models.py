@@ -20,6 +20,7 @@ class Secrets:
     regression_test_pem: str
     automerge_pem: str
     create_pull_request_pem: str
+    attestation_verify_pem: str
     eps_multi_repo_deployment_pem: str
     dev_roles: Roles
     int_roles: Roles
