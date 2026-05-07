@@ -12,9 +12,9 @@ if ! command -v gh &> /dev/null; then
     echo "Error: gh CLI is not installed. Please install it in your WSL instance from https://cli.github.com/" >&2
     exit 1
 fi
-if gh auth status --json hosts --jq '.hosts["github.com"][0].scopes' 2>/dev/null | grep -q 'read:packages'; then 
+if gh auth status --json hosts --jq '.hosts["github.com"][0].scopes' 2>/dev/null | grep -q 'read:packages'; then
     echo 'gh auth already has read:packages scope'
-else 
+else
     gh auth login --web --git-protocol ssh --skip-ssh-key --scopes read:packages
 fi
 
