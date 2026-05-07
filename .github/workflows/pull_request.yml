@@ -7,7 +7,10 @@ on:
 permissions: {}
 jobs:
   get_config_values:
-    uses: NHSDigital/eps-common-workflows/.github/workflows/get-repo-config.yml@bda627e2ce1a32ea56bcc815aec57b06cfa63c9d
+    uses: NHSDigital/eps-common-workflows/.github/workflows/get-repo-config.yml@bbee5e323229361faa29f4869f8d8984852d0fe9 # v6.0.27
+    secrets:
+      ATTESTATION_VERIFY_APP_ID: ${{ secrets.ATTESTATION_VERIFY_APP_ID }}
+      ATTESTATION_VERIFY_PEM: ${{ secrets.ATTESTATION_VERIFY_PEM }}
     permissions:
       attestations: read
       contents: read
